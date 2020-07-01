@@ -1,0 +1,129 @@
+/*样式初始化*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 14px;
+	background: url(../images/QQ20200626-10.jpg) no-repeat center;
+}
+.w{
+	width: 480px;
+	height: 720px;
+	margin: 0 auto;
+	margin-top:60px;
+	border-top: 3px solid #999;
+	border-left: 3px solid #999;
+	border-right: 3px solid #999;
+	opacity: 0.7;
+}
+i{
+	font-family: "icomoon";
+	font-style: normal;
+	font-weight: bolder;
+}
+a{
+	text-decoration: none;
+	color: #757575;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?8b3vti');
+  src:  url('../fonts/icomoon.eot?8b3vti#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?8b3vti') format('truetype'),
+    url('../fonts/icomoon.woff?8b3vti') format('woff'),
+    url('../fonts/icomoon.svg?8b3vti#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+/*主界面*/
+.interface .w{
+	background: #F3F3F3;
+}
+
+/*header*/
+.header{
+	width: 100%;
+	height: 50px;
+	position: relative;
+}
+.header a span{
+	font-size: 36px;
+	float: right;
+	color: blue;
+	position: absolute;
+	right: 20px;
+	top: 8px;
+}
+.header h1{
+	color: black;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+
+/*search*/
+.search{
+	height: 30px;
+	position: relative;
+	padding-top: 5px;
+	top:5px;
+	left: 20px;
+}
+.search i{
+	position: absolute;
+	padding-top: 11px;
+	font-size: 14px;
+	margin-left: 380px;
+	z-index:100;
+}
+.search input{
+	width: 400px;
+	height: 30px;
+	background: #E3E4E5;
+	border-radius: 10px;
+	
+}
+
+/*user*/
+.center{
+	font-size: 20px;
+	position: relative;
+	padding-top: 25px;
+	left: 40px;
+}
+.center .my_card{
+	position: absolute;
+	padding-top: 10px;
+}
+
+/*members*/
+.members{
+	width: 100%;
+	position: relative;
+	padding-top: 25px;
+	left: 40px;
+}
+.radius:hover{
+	width: 400px;
+	height:40px;
+	border-radius:5px;;
+	margin-top:10px;
+	background:#ffffff;
+}
+
+.members .word{
+	width: 400px;
+	background: #E3E4E5;
+	position: absolute;
+	top: 40px;
+	font-size:20px;
+}
+.members .name{
+	font-size: 20px;
+	line-height:40px;
+	position: absolute;
+	padding-top: 50px;
+}

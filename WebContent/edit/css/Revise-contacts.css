@@ -1,0 +1,294 @@
+/*初始化样式*/
+body,div,ul,ol,dl,li,dt,dd,h1,h2,h3,h4,h5,h6,
+p,a,span,i,form,input,button{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #9e97a2;
+}
+
+img{
+	display: block;
+	float: left;
+}
+
+ul,li{
+	list-style: none;
+}
+
+i{
+	line-height: 28px;
+	font-style: normal;
+	font-family: "icomoon";
+}
+
+form,input,button{
+	border: none;
+	outline: none;
+}
+
+/*公共样式*/
+body{
+	line-height: 1.5ex;
+	font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+	background: url(../images/QQ20200626-16.jpg) no-repeat center;
+	color: #666;	
+}
+
+.w{
+	background-color: #FFF; 
+	width: 480px;
+	margin: 0 auto;
+	height:720px;
+	margin-top:60px;
+	border-top: 3px solid #999;
+	border-left: 3px solid #999;
+	border-right: 3px solid #999;
+	clear: both;
+	opacity:0.7;
+	/*height: 140px;*/
+}
+
+.title p{
+	text-align: center;
+	font-size: 36px;
+	font-weight:bold;
+	font-family: "微软雅黑";
+	color: #080808;
+}
+
+.title{
+	position: relative;
+	padding-top:10px;
+	height: 70PX;
+	background: url(../images/7.jpg) repeat-x left bottom;
+	background-color: #fff; 
+}
+
+.head{
+	width: 100px;
+	height: 100px;
+	margin: 5px auto;
+	border: 5px solid #666;
+
+	border-radius: 50%;
+	position: relative;
+}
+
+.cover{
+	width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url(../images/1.png) center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+.head p{
+	text-align:center;
+	display: block;
+	position: relative;
+	top: 105px;
+
+	font-weight:bold;
+	font-family: "微软雅黑";
+	color: #666;
+	font-size: 16px;
+}
+
+.content{
+	height: 470px;
+	margin:60px auto;
+	position: relative;
+}
+
+.form-1,.form-2{
+	width: 370px;
+	height: 50px;
+	float: left;
+	position: relative;
+	left: 50px;
+	top: 20px;
+}
+
+.form-4,.form-3,.form-5,.form-6{
+	width: 380px;
+	height: 50px;
+	float: left;
+	position: relative;
+	left: 40px;
+	top: 20px;
+}
+
+.forma-4,.forma-3,.forma-5,.forma-6{
+	font-weight: bold;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	color: #666;
+	float: left;
+	position: absolute;
+	line-height: 40px;
+	text-align: center;
+}
+
+.forma-1,.forma-2{
+	font-weight: bold;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	color: #666;
+	float: left;
+	position: absolute;
+	line-height: 40px;
+	text-align: center;
+	padding-left: 31px;
+}
+
+.formc-1,.formc-2{
+	float: left;
+	position: relative;
+	left: 133px;
+	border-bottom: 1px solid #666;
+}
+
+.formc-4,.formc-3,.formc-5,.formc-6{
+	float: left;
+	position: relative;
+	left: 145px;
+	border-bottom: 1px solid #666;
+}
+
+.f1{ 
+	width: 210px;
+	height: 40px;
+	color: #666;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+.f2{ 
+	width: 230px;
+	height: 40px;
+	color: #666;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	padding-left: 20px;
+	text-align: center;
+}
+
+.in-out{
+	position: relative;
+	width: 480px;
+}
+
+.l-in{
+	line-height: 100px;
+	width: 100px;
+	height: 100px;
+	font-size: 30px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: #666;
+	top: 317px;
+	left: 135px;
+	position: absolute;
+	display: block;
+	text-align: center;
+}
+
+.l-in:hover{
+	line-height: 100px;
+	width: 100px;
+	height: 100px;
+	font-size: 30px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	top: 317px;
+	left: 135px;
+	position: absolute;
+	display: block;
+	background: #D8D8D8;
+	color: #080808;
+	text-align: center;
+}
+
+.r-out{
+	line-height: 100px;
+	width: 100px;
+	height: 100px;
+	font-size: 30px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: #666;
+	top: 317px;
+	right: 135px;
+	position: absolute;
+	display: block;
+	text-align: center;
+}
+
+.r-out:hover{
+	line-height: 100px;
+	width: 100px;
+	height: 100px;
+	font-size: 30px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: #666;
+	top: 317px;
+	right: 135px;
+	position: absolute;
+	display: block;
+	text-align: center;
+	background: #D8D8D8;
+	color: #080808;
+}
+
+.l{
+	width: 100px;
+	height: 100px;
+	display:block;
+	top: 321px;
+	left: 30px;
+	position: absolute;
+	background: url(../images/8.png)  no-repeat;
+}
+
+.l:hover{
+	width: 100px;
+	height: 100px;
+	display:block;
+	top: 321px;
+	right: 65px;
+	position: absolute;
+	background: url(../images/7.png) no-repeat;
+}
+
+.r{
+	top: 321px;
+	width: 100px;
+	height: 100px;
+	display:block;
+	right: 30px;
+	position: absolute;
+	background: url(../images/10.png)no-repeat;
+}
+
+.r:hover{
+	top: 321px;
+	width: 100px;
+	height: 100px;
+	display:block;
+	right: 30px;
+	position: absolute;
+	background: url(../images/9.png)  no-repeat;
+}

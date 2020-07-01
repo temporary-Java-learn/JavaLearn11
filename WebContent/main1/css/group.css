@@ -1,0 +1,93 @@
+/*样式初始化*/
+*{
+	margin: 0;
+	padding: 0
+}
+body{
+	color: #757575;
+	font-size: 14px;
+	background: url(../images/QQ20200626-10.jpg) no-repeat center;
+}
+.w{
+	width: 480px;
+	height: 720px;
+	margin: 0 auto;
+	margin-top:60px;
+	border-top: 3px solid #999;
+	border-left: 3px solid #999;
+	border-right: 3px solid #999;
+	opacity:0.8;
+}
+a{
+	text-decoration: none;
+	color: #757575;
+}
+i{
+	font-family: "icomoon";
+	font-style: normal;
+	font-weight: bolder;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?8b3vti');
+  src:  url('../fonts/icomoon.eot?8b3vti#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?8b3vti') format('truetype'),
+    url('../fonts/icomoon.woff?8b3vti') format('woff'),
+    url('../fonts/icomoon.svg?8b3vti#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+/*main*/
+.main .w{
+	background: #F3F3F3;
+	position: relative;
+}
+
+/*top*/
+.top{
+	font-size: 28px;
+	position: relative;
+	left: 40px;
+	top: 15px;
+}
+.top span{
+	position: absolute;
+	margin-left: 20px;
+}
+
+/*center*/
+.center{
+	position: relative;
+	padding-top: 20px;
+	left: 40px;
+}
+.center p{
+	font-size: 24px;
+	padding-top: 10px;
+}
+.center .icon{
+	margin-left: 320px;
+}
+.radius{
+	font-size: 24px;
+}
+.radius:hover{
+	width: 400px;
+	height:40px;
+	border-radius:5px;;
+	margin-top:10px;
+	background:#ffffff;
+}
+/*bottom*/
+.bottom{
+	position: absolute;
+	bottom: 10px;
+	left: 216px;
+}
+.bottom .new{
+	font-size: 24px;
+	float: left;
+	text-align: center;
+}
